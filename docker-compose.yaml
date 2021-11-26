@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   frontend:
-    build: ./react-docker
+    build: ./frontend
     container_name: my-app
     ports:
       - '3000:3000'
